@@ -1,0 +1,226 @@
+#bitcoin,registrar,suscribir,crear,nuevo
+SignupCmd=bitcoin,registrar,suscribir,crear,nuevo
+#Bienvenido
+SignupSubject=Bienvenido
+#¡Bienvenido a {0}! Su monedero mundial. Guarde este número, envíe comandos a este portal. Responda AYUDA para más información. www.criptobanco.io
+Signup=\u00A1Bienvenido a {0}! Su monedero mundial. Guarde este n\u00FAmero, env\u00EDe comandos a este portal. Responda AYUDA para m\u00E1s informaci\u00F3n. www.criptobanco.io
+
+#Restablecer la contraseña
+ResetSubject=Restablecer la contrase\u00F1a
+#Por favor, haga clic en este enlace para restablecer su contraseña: {0}
+Reset=Por favor, haga clic en este enlace para restablecer su contrase\u00F1a: {0}
+
+#Mensaje de verificación
+RegisterSubject=Mensaje de verificaci\u00F3n
+#Por favor haga clic en este enlace para verificar su cuenta: {0}
+Register=Por favor haga clic en este enlace para verificar su cuenta: {0}
+
+#dir,dirección,direccion,depósito,deposito,cuenta
+DepositReqCmd=dir,direcci\u00F3n,direccion,dep\u00F3sito,deposito
+#Información de la cuenta
+DepositReqSubject=Informaci\u00F3n de la cuenta
+#Por favor, utilice esta dirección para sus depósitos:{0} \nTambién puedes recibir pagos relacionados con su email o número de celular.
+DepositReq={0}
+
+#cobrar,cobro,cobra
+ChargeCmd=cobrar,cobro,cobra
+#Cobrar
+ChargeSubject=Cobrar bitcoins
+#Se puede pagar a traves "pay {0}"
+Charge=Se puede pagar a traves "pay {0}"
+
+#prod,producto
+ProductCmd=prod,producto
+#Producto
+ProductSubject=Producto
+#Se puede pagar a traves "pay {0}"
+Product=Se puede pagar a traves "pay {0}"
+
+#pagar,pago
+PayCmd=pagar,pago
+
+#Notificación de depósito
+DepositNotSubject=Notificaci\u00F3n de dep\u00F3sito
+#{0}mBTC{1} en camino a su monedero. Disponibles en aproximadamente 10 minutos, se notificará cuando se haya completado.
+DepositNotify={0}mBTC{1} en camino a su monedero. Disponibles en aproximadamente 10 minutos, se notificar\u00E1 cuando se haya completado.
+
+#Transferencia Recibida
+DepositConfSubject=Transferencia Recibida
+#Usted ha recibido {0} en su monedero.
+DepositConf=Usted ha recibido {0}mBTC{1} en su monedero.
+#Usted ha recibido {0}mBTC{1} de {2}.
+DepositConfSndr=Usted ha recibido {0}mBTC{1} de {2}.
+#Usted ha recibido {0}mBTC{1} de {2} por: "{3}".
+DepositConfSndrMsg=Usted ha recibido {0}mBTC{1} de {2} por: "{3}".
+
+#bal,balance,sal,saldo
+BalanceCmd=bal,balance,sal,saldo
+#Balance
+BalanceSubject=Balance
+#Tiene disponible {0}mBTC{1} {2}
+Balance=Tiene disponible {0}mBTC{1} {2}
+#Responda DIR, para obtener su dirección bitcoin. www.criptobanco.io
+BalanceInst=\r\nResponda DIR, para obtener su direcci\u00F3n bitcoin address\r\nwww.criptobanco.io
+
+#transacciones,tran,trans,tx,transaccion,transacción
+TransactionsCmd=transacciones,tran,trans,tx,transaccion,transacci\u00F3n
+#Transacciones
+TransactionsSubject=Transacciones
+
+#enviando,enviar,enviado,envia,envía
+WithdrawalReqCmd=enviando,enviar,enviado,envia,env\u00EDa
+#Confirmar {0}
+WithdrawalReqSubject=Confirmar {0}
+#¿Quieres enviar {0} mBTC de su cuenta a {1}?
+WithdrawalReq=\u00BFQuieres enviar {0}mBTC{1} de su cuenta a {2}?
+#Por favor utilice ENIVAR<cantidad><número celular> Ej: ENVIAR 3000COP 3156963464 <cantidad>utilice XXCOP para valor en CO, o simplemente XX para indicar mili-bitcoin
+WithdrawalReqHelp=Por favor utilice ENIVAR<cantidad><n\u00FAmero celular>\r\nEj: ENVIAR 3000COP 3156963464\r\n<cantidad>utilice XXCOP para valor en CO, o simplemente XX para indicar mili-bitcoin
+#Pagar {0}mBTC{1} a {2} por: {3}?
+WithdrawalReqPay=Pagar {0}mBTC{1} a {2} por: {3}?
+#Para confirmar la transacción, responda con: {0}
+WithdrawalReqIstr=Para confirmar la transacción, responda con: {0}
+
+#confirmar,si,conf,sí,confirmado
+WithdrawalConfCmd=confirmar,si,conf,s\u00ED,confirmado
+#Transferencia enviada
+WithdrawalConfSubject=Transferencia enviada
+#Hemos transferido {0}mBTC{1} a {2}.
+WithdrawalConf=Hemos transferido {0}mBTC{1} a {2}.
+
+#ayuda,ayd,ayu,asistencia,asist
+HelpCmd=ayuda,ayd,ayu,asistencia,asist
+#Instrucciones para el uso de {0}
+HelpSubject=Instrucciones para el uso de {0}
+#límite para ENVIAR: 12mBTC antes de establecer PIN\r\nDIR - Obtén dirección para depósitos\r\nBAL - Obtén balance en mBTC\r\nPIN - Establece PIN secreto\r\nwww.criptobanco.io
+Help=l\u00EDmite para ENVIAR: 12mBTC antes de establecer PIN\\r\\nDIR - Obt\u00E9n direcci\u00F3n para dep\u00F3sitos\\r\\nBAL - Obt\u00E9n balance en mBTC\\r\\nPIN - Establece PIN secreto\\r\\nwww.criptobanco.io
+
+#precio
+PriceCmd=precio
+
+#vender,vendo,vende
+SellCmd=vender,vendo,vende
+
+#comprar,compro,compra
+BuyCmd=comprar,compro,compra
+#Agregado como comprador
+BuySubject=Agregado como comprador
+#Su número se ha añadido como un comprador.
+Buy=Su n\u00FAmero se ha a\u00F1adido como un comprador.
+
+#reclamar
+ClaimCmd=reclamar
+#Reclamar
+ClaimSubject=Reclamar
+#Usted recibirá una llamada telefónica para verificar el identificador del reclamo.
+Claim=Usted recibir\u00E1 una llamada telef\u00F3nica para verificar el identificador del reclamo.
+
+#Por favor, confirme haciendo clic en este enlace: {0}.
+WebConfirm=Por favor, confirme haciendo clic en este enlace: {0}.
+#Como alternativa, simplemente responda a este mensaje sin cambiar el asunto.
+EmailConfirm=Como alternativa, simplemente responda a este mensaje sin cambiar el asunto.
+
+#restablecer
+RestoreCmd=restablecer
+
+#El formato es incorrecto
+FormatErrorSubject=El formato es incorrecto
+#Tuvimos problemas entendiendo su solicitud. Por favor, vuelva a enviarlo en el formato correcto.
+FormatError=Tuvimos problemas entendiendo su solicitud. Por favor, vuelva a enviarlo en el formato correcto.
+
+#Fondos Insuficientes
+InsufficientFundsSubject=Fondos Insuficientes
+#Usted tiene fondos insuficientes: su balance es: {0} mBTC, y {1} mBTC es requerido para completar la transacción.
+InsufficientFunds=Usted tiene fondos insuficientes:\r\nSu balance disponible es: {0}mBTC{1},\r\nSe requieren {2}mBTC{3} para completar la transacci\u00F3n.
+
+#Comando Desconocido
+UnknownCommandSubject=Comando Desconocido
+#Has enviado un comando desconocido. Responde AYUDA o ingresa a www.criptobanco.io
+UnknownCommand=Has enviado un comando desconocido. Responde AYUDA o ingresa a www.criptobanco.io
+
+#La solicitud de confirmación ha expirado
+TimeoutSubject=La solicitud de confirmaci\u00F3n ha expirado
+#Ninguna confirmación fue recibida dentro del tiempo dado, la transacción ha sido cancelada.
+Timeout=Ninguna confirmaci\u00F3n fue recibida dentro del tiempo dado, la transacci\u00F3n ha sido cancelada.
+
+#La transacción falló
+TransactionFailedSubject=La transacci\u00F3n fall\u00F3
+#Transacción falló debido a razones desconocidas.
+TransactionFailed=Transacci\u00F3n fall\u00F3 debido a razones desconocidas.
+
+#Transacción cancelada
+TransactionCanceledSubject=Transacci\u00F3n cancelada
+#La transacción ha sido cancelada.
+TransactionCanceled=La transacci\u00F3n ha sido cancelada.
+
+#Servicio no disponble
+UnavailableSubject=Servicio no disponible
+#{0} no está disponible en este momento, por favor intente de nuevo en 1 hora. Disculpe la molestia ocasionada.
+Unavailable={0} no est\u00E1 disponible en este momento, por favor intente de nuevo en 1 hora. Disculpe la molestia ocasionada. 
+
+#Destino inalcanzable
+DestinationUnreachableSubject=Destino inalcanzable
+#Ningún portal fue encontrado en el país al que usted está intentando enviar bitcoins. Sugiérale a su amigo abrir un portal en: www.criptobanco.com/portales
+DestinationUnreachable=Ning\u00FAn portal fue encontrado en el pa\u00EDs al que usted est\u00E1 intentando enviar bitcoins. Sugi\u00E9rale a su amigo abrir un portal en: www.criptobanco.com/portales
+
+#El valor de la transacción está por debajo de la tarifa
+BelowFeeSubject=El valor de la transacci\u00F3n est\u00E1 por debajo de la tarifa
+#Esta transacción no vale la pena ser enviada. Vuelva a verificar la cantidad.
+BelowFee=Esta transacci\u00F3n no vale la pena ser enviada. Vuelva a verificar la cantidad.
+
+#Cuenta bloqueada
+AccountBlockedSubject=Cuenta bloqueada
+#La cuenta está bloqueada
+AccountBlocked=La cuenta est\u00E1 bloqueada
+
+#Cuenta eliminada
+AccountDeletedSubject=Cuenta eliminada
+#Su {0} cuenta ha sido eliminada por inactividad. Gracias por su interés y apoyo en probarla, está muy bienvenido para abrir una cuenta nueva en cualquier momento. 
+AccountDeleted=Su {0} cuenta ha sido eliminada por inactividad. Gracias por su inter\u00E9s y apoyo en probarla, est\u00E1 muy bienvenido para abrir una cuenta nueva en cualquier momento.    
+
+#Portal sin conexión
+GatewayAlertSubject=Portal sin conexi\u00F3n
+#Su {0} portal se encuentra fuera de línea desde hace unos minutos. Por favor, reanude su operación. Notificaremos a los clientes después de un paro prolongado.
+GatewayAlert=Su {0} portal se encuentra fuera de l\u00EDnea desde hace unos minutos. Por favor, reanude su operaci\u00F3n. Notificaremos a los clientes despu\u00E9s de un paro prolongado.
+
+#Solicitud redundante
+OveruseSubject=Solicitud redudante
+#Su comando fue encontrado redundante y saltó para evitar un alto costo.
+Overuse=Su comando fue encontrado redundante y salt\u00F3 para evitar un alto costo.
+
+#Para más información visite {0} o envíe un email con el asunto "Ayuda".
+MoreInfoEmail=Para m\u00E1s informaci\u00F3n visite {0} o env\u00EDe un email con el asunto \"Ayuda\".
+#¿Preguntas? Envíe el comando "Ayuda".
+MoreInfoSms=\u00BFPreguntas? Env\u00EDe el comando \"Ayuda\".
+
+#El número de transacción es {0}.
+TransactionDetails=El n\u00FAmero de transacci\u00F3n es {0}.
+
+#voz,PIN
+VoiceCmd=voz,PIN
+#PIN de seguridad activado exitosamente
+Voice=PIN de seguridad activado exitosamente
+#Criptobanco, su monedero mundial.
+VoiceHello=Criptobanco, su monedero mundial.
+#Para asegurar transacciones significantes, por favor cree un PIN de 4 dígitos.
+VoiceSetup=Para asegurar transacciones significativas, por favor cree un PIN de 4 d\u00EDgitos.
+#Por favor, ingrese un nuevo PIN de 4 dígitos, seguido de la tecla numeral.
+VoiceCreate=Por favor, ingrese un nuevo PIN de 4 d\u00EDgitos, seguido de la tecla numeral.
+#Por favor, repita su nuevo PIN de 4 dígitos, seguido de la tecla numeral.
+VoiceConfirm=Por favor, repita su nuevo PIN de 4 d\u00EDgitos, seguido de la tecla numeral.
+#Por favor, ingrese el número de 4 dígitos, seguido de la tecla numeral.
+VoiceMerchantConfirm=Por favor, ingrese el n\u00FAmero de 4 d\u00EDgitos, seguido de la tecla numeral.
+#PIN no coincide. Por favor, inténtalo de nuevo
+VoiceMismatch=PIN no coincide. Por favor, int\u00E9ntalo de nuevo
+#Por favor Recuerde su PIN para transacciones en el futuro.
+VoiceSuccess=Por favor Recuerde su PIN para transacciones en el futuro.
+#Por favor ingrese su PIN de 4 dígitos, seguido de la tecla numeral.
+VoiceEnter=Por favor ingrese su PIN de 4 d\u00EDgitos, seguido de la tecla numeral.
+#Correcto. La transacción se está ejecutando.
+VoiceOk=Correcto. La transacci\u00F3n se est\u00E1 ejecutando.
+#El pasador que has puesto no es correcto, su cuenta será bloqueada después de 3 intentos fallidos.
+VoiceFail=El pasador que has puesto no es correcto, su cuenta ser\u00E1 bloqueada despu\u00E9s de 3 intentos fallidos.
+#Hola desde criptobanco. Su código de verificación es $ {payload}. Por favor, ingrese $ {payload} para completar la verificación.
+VoiceRegister=Hola desde criptobanco. Su c\u00F3digo de verificaci\u00F3n es $ {payload}. Por favor, ingrese $ {payload} para completar la verificaci\u00F3n.
+
+#Saludos cordiales, adiós{0}
+Byebye=Saludos cordiales, adi\u00F3s\n\n{0}
