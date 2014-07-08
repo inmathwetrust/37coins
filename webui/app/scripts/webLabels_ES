@@ -2,16 +2,16 @@ define({
     "ftr" : {
         "1000000" : {
             "n" : [ "BIT", "Bits" ],
-            "d" : "1 Bit = 1BIT = 0.000001BTC = una millonésima de un Bitcoin.",
+            "d" : "1 Bit = 1BIT = 0.000001BTC = una millonésima de Bitcoin.",
             "s" : "0.000001 BTC"
         }
     },
     "sad" : {
-        "bld" : "Error!",
-        "cm" : [ "Error de Comunicación!" ]
+        "bld" : "¡Error!",
+        "cm" : [ "¡Error de Comunicación!" ]
     },
     "happy" : {
-        "req" : [ "Éxito!" , "Solicitud Envida."]
+        "req" : [ "¡Éxito!" , "Solicitud Envida."]
     },
     "ln" : {
         "rs1" : "Restablecer",
@@ -71,13 +71,13 @@ define({
         "dlH2" : "Descarga la App",
         "dlInstP1" : "Para operar este portal, descarga  <a href=\"https://play.google.com/store/apps/details?id=org.envaya.sms\">EnvayaSMS</a> y configúralo con los siguientes parámetros.",
         "dlL" : "EnvayaSMS",
-        "cfgH2" : "Configurar App",
+        "cfgH2" : "Configurar la App",
         "fieldHeader" : "Campo",
         "valueHeader" : "Valor"
     },
     "balanceView" : {
         "balH2" : "Balance de Cuenta",
-        "bal" : "El balance en su cuenta es de",
+        "bal" : "El saldo en su cuenta es",
         "amountLbl" : "Monto de retiro:",
         "amountPh" : "Ingresar el monto",
         "addressLbl" : "Dirección de retiro:",
@@ -95,11 +95,11 @@ define({
     "cmdV" : {
         "column1" : "Comando",
         "column2" : "Descripción",
-        "SignupCmd" : "SignupES",
+        "SignupCmd" : "Registrate",
         "HelpCmd" : "Listar comandos disponibles",
         "DepositReqCmd" : "Obtener dirección Bitcoin de depósito",
         "BalanceCmd" : "Obtener balance en {0}",
-        "TransactionsCmd" : "Enumerar las últimos 3 transacciones",
+        "TransactionsCmd" : "Enumerar las 3 últimas transacciones",
         "WithdrawalReqCmd" : "Enviar Bitcoins al número de teléfono, dirección Bitcoin",
         "VoiceCmd" : "Configurar PIN secreto",
         "ChargeCmd" : "Cargos",
@@ -130,8 +130,8 @@ define({
         "send": {
             "syntax" : "Sintaxis del comando ENVIAR",
             "caption" : "ENVIAR <cantidad>; <dirección>; [comentario]",
-            "p1": "El comando ENVIAR le permite transferir Bitcoins de su cuenta a otro monederoSMS, número de teléfono celular, o cualquier monedero Bitcoin en el mundo.",
-            "p2": "El destinatario no necesita tener una cuenta con nosotros. Si envía Bitcoins a un número de teléfono que no tiene una cuenta de monederoSMS, se creará una para ellos y serán notificados.",
+            "p1": "El comando ENVIAR te permite transferir Bitcoins de tu cuenta a otro monederoSMS, número de teléfono celular, o cualquier monedero Bitcoin en el mundo.",
+            "p2": "El destinatario no necesita tener una cuenta con nosotros. Si envías Bitcoins a un número de teléfono que no tiene una cuenta de monederoSMS, se creará una para ellos y serán notificados.",
             "p3": "<strong>Asegúrese de que ha escrito el número de teléfono o la dirección Bitcoin de los destinatarios correctamente. Una vez enviada, la transacción no puede ser revertida.</strong>",
             "address" : {
                 "td1" : "<dirección>",
@@ -191,25 +191,25 @@ define({
         "faq" : {
             "question1" : "Que es",
             "answer1" : {
-                "p1" : "es una manera sencilla para enviar Bitcoin al teléfono celular de cualquier persona, incluso números de teléfono internacional. Los Portales conectan la red SMS de un país a la red Bitcoin. Esto significa que no necesitas un teléfono mobil inteligente o incluso un teléfono con acceso a la web para usar Bitcoin! Puedes enviar tus Bitcoin a cualquiera con un número de teléfono sin importar donde esten!"
+                "p1" : "es una manera sencilla para enviar Bitcoin al teléfono celular de cualquier persona, incluso números de teléfono internacional. Los Portales conectan la red SMS de un país a la red Bitcoin. ¡Esto significa que no necesitas un teléfono móvil inteligente o incluso un teléfono con acceso a la web para usar Bitcoin! ¡Puedes enviar tus Bitcoin a cualquiera con un número de teléfono sin importar donde esten!"
             },
             "question2" : "¿Hay que pagar por utilizar el sistema de monederoSMS?",
             "answer2" : {
                 "title1" : "Enviando entre usuarios con monederoSMS",
                 "p1" : "Ahora mismo solo hay un costo de transacción que son iniciados con el comando ENVIAR. Estas tarifas son establecidas por los operadores de portalSMS y refleja el costo de operar en sus paises (y competencia de mercado). Actualmente no hay un costo por el uso del PIN de Seguridad.",
-                "p2" : "El remitente siempre paga el costo de transacción y es evaluada desde el operador de portal del remitente. Así, la tarifa es la misma si envias Bitcoin a un número de teléfono celular local o un número de teléfono celular internacional",
+                "p2" : "El remitente siempre paga el costo de transacción y es evaluado desde el operador de portal del remitente. Así, la tarifa es la misma si envias Bitcoin a un número de teléfono celular local o a un número de teléfono celular internacional",
                 "title2" : "Enviando a un dirección Bitcoin",
                 "p3" : "Si se envía a una dirección Bitcoin externa, abrá un adicional costo de transacción por el uso de la cadena de bloques de Bitcoin, en adición a la tarifa del portal. El costo de transacción por el uso de la cadena de bloques de Bitcoin depende del tamaño de la transacción."
             },
             "question4" : "Quiero abrir un monederoSMS, ¿Necesito operar un portalSMS?",
             "answer4" : {
                 "p1" : "No, si solo quieres abrir un monedero, simplemente selecciona un portal que opera en tu país y envíale un mensaje de texto. Abriendo un portalSMS no te dará un monederoSMS.",
-                "p2" : "Si ningún portal existe en tu país, piensa en abrir uno. Le permitirá a la gente utilizar el número de tu portal para abrir monederos y enviar a números de teléfono celular o direcciones Bitcoin. Tambien, te ganarás lo generado por los costos de las transacciones procesadas a través de tu portal. Una vez más, si tu abres un portal, y quieres abrir un monederoSMS, necesitarás otro teléfono. Para saber más sobre portales, visita las Preguntas Frecuentes del portalSMS, o <a href=\"/{{l}}/gateways\">sign up</a>."
+                "p2" : "Si ningún portal existe en tu país, piensa en abrir uno. Le permitirá a la gente utilizar el número de tu portal para abrir monederos y enviar a números de teléfono celular o direcciones Bitcoin. Tambien, te ganarás lo generado por los costos de las transacciones procesados a través de tu portal. Una vez más, si tu abres un portal, y quieres abrir un monederoSMS, necesitarás otro teléfono. Para saber más sobre portales, visita las Preguntas Frecuentes del portalSMS, o <a href=\"/{{l}}/gateways\">sign up</a>."
             },
             "question5" : "¿Cómo es esto seguro? ¿No has oído hablar del receptor-IMSI? ¿Y si me hackean?",
             "answer5" : {
                 "p1" : "MonderoSMS opera en un modelo de responsabilidad compartida y autenticación de factor-múltiple por seguridad. Para proteger los monederosSMS de suplantación de identidad (spoofing), el portalSMS envía un desafío de vuelta al teléfono para verificar la solicitud. Luego una transacción es construida y firmada con la llave privada del portalSMS. La(s) entrada para esta transacción no es gastable sin la firma de ambos, el portal y el servicio web. Para transacciones de alto valor, el servicio-web inicia una llamada de voz con el cliente para verificar el PIN de gasto del cliente. En lugar de confirmar el mensaje a través de SMS/mensaje de texto, se introduce un PIN Secreto con el tono de marcado a través de una llamada de voz. Una vez conseguido esto, el servicio web añade su parte de la firma y la transacción se puede gastar. Durante todo el proceso, se requiere al cliente para verificar la posesión del teléfono, así como el conocimiento del PIN de gasto, dándole dos factores para la autenticación. En otras palabras, el receptor-IMSI sería ineficaz en transacciones protegidas por el PIN de seguridad. ",
-                "p2" : "Sin embargo, en la implementación actual PVM (producto viable mínimo) ningún modelo de responsabilidad compartida es implementado aún. El portal es bruto y el servicio web tiene que ser de plena confianza."
+                "p2" : "Sin embargo, en la implementación actual de PVM (producto viable mínimo) ningún modelo de responsabilidad compartida es implementado aún. El portal es bruto y el servicio web tiene que ser de plena confianza."
             }
         }
     },
@@ -221,7 +221,7 @@ define({
             "tag" : "Enviar y recibir Bitcoin <br> en cualquier parte del mundo a través de SMS. <br/> No requiere de Internet o teléfono inteligente.",
             "walletInv" : "Regístrate para ser un usuario beta del monederoSMS.",
             "terms" : {
-                "prompt" : "¡Al hace clic en Ir!, te comprometes a los",
+                "prompt" : "¡Al hacer clic en Ir!, te comprometes a los",
                 "label": "terminos de uso"
             }
         },
@@ -269,7 +269,7 @@ define({
         "wallet" : {
             "login" : {
                 "title2" : "Ingresar al monedero",
-                "label" : "Introduzca el número de teléfono celular de su cuenta existente.",
+                "label" : "Introduce el número de teléfono celular de tu cuenta existente.",
                 "gwPrompt" : "¿Querias iniciar sesión en tu portalSMS?",
                 "gwLink" : "Haga clic aquí."
             },
@@ -359,16 +359,16 @@ define({
                 "inputCode" : {
                     "label": "Código de Verificación:",
                     "help-block" : "Escribe el código de 5-dígitos que recibiste durante la llamada de verificación.",
-                    "confirmBtn" : "Confirma Propiedad",
-                    "sad" : "Error!",
+                    "confirmBtn" : "Confirmar Propiedad",
+                    "sad" : "¡Error!",
                     "sadExpln" : "Código enviado no válido."
                 },
                 "inputTel" : {
                     "label" : "Número celular del Portal:",
                     "placeholder" : "+CCXXXXXX...",
-                    "help-block" : "Introduzca el número de su portal en formato internacional. Evite signos especiales y espacios. Recibirás una llamadada, diciendote el código de verificación de 5-dígitos.",
+                    "help-block" : "Introduce el número de tu portal en formato internacional. Evita signos especiales y espacios. Recibirás una llamadada, diciendote el código de verificación de 5-dígitos.",
                     "startBtn" : "Iniciar Verificación",
-                    "sad" : "Error!",
+                    "sad" : "¡Error!",
                     "sadExpln" : "Error de Comunicación."
                 },
                 "verBtn" : "Iniciar Verificación"
@@ -379,10 +379,10 @@ define({
             "feeInput" : {
                 "label" : "Costo de Transaction en ",
                 "labelDen" : "Bits:",
-                "labelDenExpl" : "Bits son 0.000001 BTC, o una millonésima de un Bitcoin.",
+                "labelDenExpl" : "Bits son 0.000001 BTC, o una millonésima de Bitcoin.",
                 "placeholder" : "0.00xx",
                 "help-block" : "Elije una tarifa de transacción pagada en \"Bits\" de bitcoin a usted por el usuario para cada transacción exitosa.",
-                "help-block-tt" : "Bits son 0.000001 BTC, o una millonésima de un Bitcoin."
+                "help-block-tt" : "Bits son 0.000001 BTC, o una millonésima de Bitcoin."
             },
             "msgInput" : {
                 "label" : "Mensaje de Bienvenida:",
@@ -397,12 +397,12 @@ define({
             "callbackInput" : {
                 "label" : "Retrollamada de Registro:",
                 "placeholder" : "https://",
-                "help-block" : "Notifique a su servidor sobre nuevos usuarios."
+                "help-block" : "Notifica a tu servidor sobre nuevos usuarios."
             },
             "submitBtn" : "Actualizar Configuración",
-            "sad" : "Error!",
-            "commErr" : "Error de Comunicación! Por favor inténtalo de nuevo más tarde, desde un navegador diferente, o contacta a soporte.",
-            "happy" : "Éxito!",
+            "sad" : "¡Error!",
+            "commErr" : "¡Error de Comunicación! Por favor inténtalo de nuevo más tarde, desde un navegador diferente, o contacta a soporte.",
+            "happy" : "É¡xito!",
             "success" : "Configuración actualizada."
         }
     } ,
@@ -413,20 +413,20 @@ define({
     "logoutView" : {
         "success" : {
             "happy" : "Éxito!",
-            "alert" :"Éxitoso cierre de sesión.",
+            "alert" :"Exitoso cierre de sesión.",
             "alert-link" :"Continuar al Ingreso"
         }
     },
     "merchant" : {
         "success" : {
-            "alert" : "<strong>Éxito!</strong> Cuenta de cometcuante verificada éxitosamente.",
+            "alert" : "<strong>¡Éxito!</strong> Cuenta de comerciante verificada éxitosamente.",
             "InputName1" : {
                 "label": "Nombre de Usuario:",
                 "placeholder": "Ingresar nombre de usuario."
             },
             "button" : "Establecer nombre",
             "error" : {
-                "prompt" : "<strong>Error!</strong> Por favor",
+                "prompt" : "<strong>¡Error!</strong> Por favor",
                 "label" : "contacta a soporte"
             },
             "instructions" : "¡Prueba tu nueva cuenta! ¡Registra algunos usuarios y déjanos saber lo que piensas!"
@@ -453,7 +453,7 @@ define({
         "error" : "Número invalido"
     },
     "reset" : {
-        "identifyH2" : "Identifica cuenta a ser restablecer",
+        "identifyH2" : "Identifica la cuenta a restablecer",
         "happy" : "¡Éxito!",
         "submitted" : "Solicitud de Contraseña enviada. Por favor revisa tu correo electrónico y sigue las instrucciones proporcionadas.",
         "sad" : "!Error!",
@@ -476,11 +476,11 @@ define({
             }
         },
         "resetReqForm" : {
-            "titleH2": "Identifica cuenta para restablecer",
+            "titleH2": "Identifica la cuenta a restablecer",
             "exampleInputEmail1" : {
                 "label" : "Correo electrónico:",
                 "placeholder" : "Ingresar correo electrónico",
-                "help-block" : "Escriba la dirección de correo electrónico de su cuenta para recibir un código de restablecimiento.",
+                "help-block" : "Escribe la dirección de correo electrónico de tu cuenta para recibir un código de restablecimiento.",
                 "resetBtn" : "Restablecer Contraseña"
             },
             "ohNoez" : "¡Error!",
