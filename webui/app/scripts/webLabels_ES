@@ -1,0 +1,494 @@
+define({
+    "ftr" : {
+        "1000000" : {
+            "n" : [ "BIT", "Bits" ],
+            "d" : "1 Bit = 1BIT = 0.000001BTC = una millonésima de un Bitcoin.",
+            "s" : "0.000001 BTC"
+        }
+    },
+    "sad" : {
+        "bld" : "Error!",
+        "cm" : [ "Error de Comunicación!" ]
+    },
+    "happy" : {
+        "req" : [ "Éxito!" , "Solicitud Envida."]
+    },
+    "ln" : {
+        "rs1" : "Restablecer",
+        "lgn" : "Ingresar",
+        "reg" : "Regístrate",
+        "regB" : "Regístrate",
+        "sgn" : "Iniciar Sesión",
+        "lbtc" : "Localbitcoins"
+    },
+    "siteNav" : {
+        "root" : {
+            "products" : "productos",
+            "help" : "ayuda",
+            "about" : "sobre nosotros",
+            "terms" : "condiciones",
+            "privacy" : "privacidad",
+            "bf" : "Bitfinger [muy pronto]"
+        },
+        "notFound" : {
+            "h1" : "No encontrado",
+            "face" : ":(",
+            "sorry" : "Disculpa, pero la página que intentabas ver no existe.",
+            "cause" : {
+                "expln" :"Parece que esto fue el resultado de una de las dos:",
+                "addr" : "una dirección mal escrita",
+                "link" : "un vínculo roto"
+            },
+            "backToHome" : "Continuar al Índice"
+        },
+        "terms" : "Terminos de Uso",
+        "termsH1" : "Condiciones de Servicio 37coins",
+        "privTerms" : "Política de Privacidad"
+    },
+    "privacy" : {
+        "h1" : "Política de Privacidad",
+        "h2" : "Información Personal"
+    },
+    "social" : {
+        "heading" : "síguenos en"
+    },
+    "aboutView" : {
+        "about" : "Sobre 37coins",
+        "desc" : "Estamos comprometidos en hacer Bitcoin fácil, seguro de usar, y accesible para todos. Con un enfoque global sobre la equidad social, desarrollamos soluciones seguras y escalables para tecnología inclusiva, que son tan apropiadas para las economías emergentes como lo son para las desarrolladas.",
+        "team" : "Equipo",
+        "role1" : "Emprendedor Social",
+        "role2" : "Gerente de Contenido y Comunidad",
+        "role3" : "Desarrollador",
+        "role4" : "Diseñador"
+    },
+    "accountLayout" : {
+        "expl" : "Los comandos no distinguen entre mayúsculas y minúsculas y se envían a los portales a través de SMS/mensaje de texto. Para obtener más información, visita el monederoSMS {0}.",
+        "hlpPageL" : "página de ayuda",
+        "headerTagline" : "Portal más reciente",
+        "acctHeadlineV" : "Cuenta"
+    },
+    "configView" : {
+        "dlH2" : "Descarga la App",
+        "dlInstP1" : "Para operar este portal, descarga  <a href=\"https://play.google.com/store/apps/details?id=org.envaya.sms\">EnvayaSMS</a> y configúralo con los siguientes parámetros.",
+        "dlL" : "EnvayaSMS",
+        "cfgH2" : "Configurar App",
+        "fieldHeader" : "Campo",
+        "valueHeader" : "Valor"
+    },
+    "balanceView" : {
+        "balH2" : "Balance de Cuenta",
+        "bal" : "El balance en su cuenta es de",
+        "amountLbl" : "Monto de retiro:",
+        "amountPh" : "Ingresar el monto",
+        "addressLbl" : "Dirección de retiro:",
+        "addressPh" : "Ingresar la dirección de retiro",
+        "withdrawalBtn" : "Retiro",
+    },
+    "captchaView" : {
+        "loading" : "cargando captcha ...",
+        "captchaH2" : "¡Verificar Captcha!",
+        "captcha" : "Tu IP ha hecho múltiples solicitudes. Por favor escriba ambas palabras mostradas por el captcha para verificar que no eres un robot.",
+        "sad" : "¡Error!",
+        "error" : "¡Solución Incorrecta! Inténtalo de nuevo.",
+        "captchaBtn" : "¡Hecho!"
+    },
+    "cmdV" : {
+        "column1" : "Comando",
+        "column2" : "Descripción",
+        "SignupCmd" : "SignupES",
+        "HelpCmd" : "Listar comandos disponibles",
+        "DepositReqCmd" : "Obtener dirección Bitcoin de depósito",
+        "BalanceCmd" : "Obtener balance en {0}",
+        "TransactionsCmd" : "Enumerar las últimos 3 transacciones",
+        "WithdrawalReqCmd" : "Enviar Bitcoins al número de teléfono, dirección Bitcoin",
+        "VoiceCmd" : "Configurar PIN secreto",
+        "ChargeCmd" : "Cargos",
+        "ProductCmd" : "Listar productos",
+        "PayCmd" : "Paga Bitcoin",
+        "PriceCmd" : "Obtiene el precio",
+        "SellCmd" : "Configura una venta de Bitcoin",
+        "BuyCmd" : "Se configura para comprar Bitcoin"
+    },
+    "cmdHelpL" : {
+        "h1" : "Ayuda",
+        "refH2" : "Referencia Rápida",
+        "cmdH2" : "Comandos",
+        "faqH3": "Preguntas Frecuentes",
+        "cmd" : "Los comandos no distinguen entre mayúsculas y minúsculas y se envían a los portales a través de SMS/mensaje de texto.",
+        "w" : "Taquigrafía o errores de ortografía reconocidos: ",
+        "addr" : {
+            "p1" : "El comando DIRECCION devuelve la dirección Bitcoin más reciente asociada a su cuenta de monederoSMS.",
+            "p2" : "Con esta dirección Bitcoin, usted puede depositar Bitcoins desde otro monedero Bitcoin. Si usted no tiene Bitcoins, puede adquirirlos en  <a href=\"https://localbitcoins.com/buy-bitcoins-online/?ch=1zol\">Localbitcoins</a> or <a href=\"https://coinbase.com/?r=5367c0e6c9f6f52297000082&utm_campaign=user-referral&src=referral-link\">Coinbase</a>"
+        },
+        "bal" : {
+            "column1" : "Respuesta del Sistema ",
+            "column2" : "Implicación",
+            "implication1" : "Usted puede enviar hasta 0.012048 Bitcoins a otro número de teléfono celular o dirección Bitcoin",
+            "p1" : "El comando BALANCE devuelve el valor actual de tu monederoSMS Bitcoin.",
+            "p2" : "El balance reportado ya refleja el potencial costo de transacción. Por lo tanto, refleja la cantidad máxima de Bitcoin que usted puede transferir a otro monederoSMS."
+        },
+        "send": {
+            "syntax" : "Sintaxis del comando ENVIAR",
+            "caption" : "ENVIAR <cantidad>; <dirección>; [comentario]",
+            "p1": "El comando ENVIAR le permite transferir Bitcoins de su cuenta a otro monederoSMS, número de teléfono celular, o cualquier monedero Bitcoin en el mundo.",
+            "p2": "El destinatario no necesita tener una cuenta con nosotros. Si envía Bitcoins a un número de teléfono que no tiene una cuenta de monederoSMS, se creará una para ellos y serán notificados.",
+            "p3": "<strong>Asegúrese de que ha escrito el número de teléfono o la dirección Bitcoin de los destinatarios correctamente. Una vez enviada, la transacción no puede ser revertida.</strong>",
+            "address" : {
+                "td1" : "<dirección>",
+                "td2" : "La dirección de destino para enviar los Bitcoins. Puede ser un número de teléfono o una dirección Bitcoin. Los números de teléfono celular no pueden tener espacios. Si el envío es internacional, incluye el código del país y el signo (+) mas. Por ejemplo +63 para un número en Filipinas ."
+            },
+            "amount" : {
+                "td1" : "<cantidad>",
+                "td2" : "La cantida para enviar al destinatario. Usa <em>1200</em> para indicar 12000BIT, o utiliza <em>5USD</em> para indicar que estas enviando Bitcoin por el valor de 5 dólares americanos. (Puedes utilizar cualquier 3 caracteres representativos de una diviza internacionales, como PHP, EUR, …)"
+            },
+            "comment" : {
+                "td1": "[comentario]",
+                "td2": "Comentario opcional, hasta 40 caracteres. Los mensajes que son demasiado largos serán acortados."
+            },
+            "example" : {
+                "header" : "Ejemplos del comando ENVIAR",
+                "column1" : "Ejemplo",
+                "column2" : "Descripción del comando",
+                "ex1" : {
+                    "caption" : "Enviando Bitcoin localmente (desde el monederoSMS de un usuario en EE.UU)",
+                    "td1" : "ENVIAR 1USD 6165551234",
+                    "td2" : "Esto le solicita al sistema enviar el equivalente en Bitcoin de 1 dolar americano al teléfono celular 6165551234 en EE.UU.."
+                },
+                "ex2" : {
+                    "caption" : "Enviando Bitcoin al extranjero (desde el monederoSMS de un usuario en EE.UU.)",
+                    "td1" : "ENVIAR 44PHP +639125551234",
+                    "td2" : "Esto le solicita al sistema enviar el equivalente en Bitcoin de 44 Pesos Filipinos al teléfono celular +639125551234 en PH."
+                },
+                "ex3" : {
+                    "caption" : "Enviando con taquigrafía (asumiendo un moeneroSMS de un usuario en EE.UU.)",
+                    "td1" : "6300 6165551234",
+                    "td2" : "Esto le solicita al sistema enviar 6,300 BIT al teléfono celular 6165551234."
+                },
+
+                "ex4" : {
+                    "caption" : "Enviando a una dirección Bitcoin",
+                    "td1" : "ENVIAR 12USD 19xeDDxhahx4f32WtBbPwFMWBq28rrYVoh",
+                    "td2" : "Esto le solicita al sistema enviar el equivalente en Bitcoin de 12USD a la dirección Bitcoin 19xeDDxhahx4f32WtBbPwFMWBq28rrYVoh."
+                }
+            }
+        },
+        "transaction": {
+            "syntax" : "Sintaxis del comando TRANSACCION",
+            "p1" : "El comando TRANSACCION devuelve el historial de tus trés últimas transacciones."
+        },
+        "pin": {
+            "syntax": "Sintaxis del comando PIN",
+            "p1": "El comando PIN configura el PIN de Seguridad para tu cuenta.",
+            "p2": "El PIN de Seguridad es un código de 4 dígios que tu asignas. Proteje tu cuenta de gastos no autorizados.",
+            "p3": "Si un PIN de Seguridad aún no esta configurado, el sistema te llamará y te guiará por el proceso. Cuando reciba la llamada para configurar tu PIN, el sistema te pedirá que digites tu código de 4 dígitos, seguido por la tecla numeral (#).",
+            "p4": "Actualmente el PIN de Seguridad es requerido si intentas ENVIAR más de 12 USD en un solo día. En el futuro, podrás ajustar este monto."
+        },
+        "price": {
+            "syntax" : "Sintaxis del comando PRECIO",
+            "p1" : "El comando PRECIO devuelve la actual tasa de cambio del Bitcoin para la moneda fiduciaria común de tu región. La tasa de cambio es calculada desde <a href=\"https://bitcoinaverage.com\">Bitcoinaverage.com</a>",
+            "p2" : "Esto podrá no reflejar el precio disponible localmente, o a través de los comerciantes y portales de tu país."
+        },
+        "faq" : {
+            "question1" : "Que es",
+            "answer1" : {
+                "p1" : "es una manera sencilla para enviar Bitcoin al teléfono celular de cualquier persona, incluso números de teléfono internacional. Los Portales conectan la red SMS de un país a la red Bitcoin. Esto significa que no necesitas un teléfono mobil inteligente o incluso un teléfono con acceso a la web para usar Bitcoin! Puedes enviar tus Bitcoin a cualquiera con un número de teléfono sin importar donde esten!"
+            },
+            "question2" : "¿Hay que pagar por utilizar el sistema de monederoSMS?",
+            "answer2" : {
+                "title1" : "Enviando entre usuarios con monederoSMS",
+                "p1" : "Ahora mismo solo hay un costo de transacción que son iniciados con el comando ENVIAR. Estas tarifas son establecidas por los operadores de portalSMS y refleja el costo de operar en sus paises (y competencia de mercado). Actualmente no hay un costo por el uso del PIN de Seguridad.",
+                "p2" : "El remitente siempre paga el costo de transacción y es evaluada desde el operador de portal del remitente. Así, la tarifa es la misma si envias Bitcoin a un número de teléfono celular local o un número de teléfono celular internacional",
+                "title2" : "Enviando a un dirección Bitcoin",
+                "p3" : "Si se envía a una dirección Bitcoin externa, abrá un adicional costo de transacción por el uso de la cadena de bloques de Bitcoin, en adición a la tarifa del portal. El costo de transacción por el uso de la cadena de bloques de Bitcoin depende del tamaño de la transacción."
+            },
+            "question4" : "Quiero abrir un monederoSMS, ¿Necesito operar un portalSMS?",
+            "answer4" : {
+                "p1" : "No, si solo quieres abrir un monedero, simplemente selecciona un portal que opera en tu país y envíale un mensaje de texto. Abriendo un portalSMS no te dará un monederoSMS.",
+                "p2" : "Si ningún portal existe en tu país, piensa en abrir uno. Le permitirá a la gente utilizar el número de tu portal para abrir monederos y enviar a números de teléfono celular o direcciones Bitcoin. Tambien, te ganarás lo generado por los costos de las transacciones procesadas a través de tu portal. Una vez más, si tu abres un portal, y quieres abrir un monederoSMS, necesitarás otro teléfono. Para saber más sobre portales, visita las Preguntas Frecuentes del portalSMS, o <a href=\"/{{l}}/gateways\">sign up</a>."
+            },
+            "question5" : "¿Cómo es esto seguro? ¿No has oído hablar del receptor-IMSI? ¿Y si me hackean?",
+            "answer5" : {
+                "p1" : "MonderoSMS opera en un modelo de responsabilidad compartida y autenticación de factor-múltiple por seguridad. Para proteger los monederosSMS de suplantación de identidad (spoofing), el portalSMS envía un desafío de vuelta al teléfono para verificar la solicitud. Luego una transacción es construida y firmada con la llave privada del portalSMS. La(s) entrada para esta transacción no es gastable sin la firma de ambos, el portal y el servicio web. Para transacciones de alto valor, el servicio-web inicia una llamada de voz con el cliente para verificar el PIN de gasto del cliente. En lugar de confirmar el mensaje a través de SMS/mensaje de texto, se introduce un PIN Secreto con el tono de marcado a través de una llamada de voz. Una vez conseguido esto, el servicio web añade su parte de la firma y la transacción se puede gastar. Durante todo el proceso, se requiere al cliente para verificar la posesión del teléfono, así como el conocimiento del PIN de gasto, dándole dos factores para la autenticación. En otras palabras, el receptor-IMSI sería ineficaz en transacciones protegidas por el PIN de seguridad. ",
+                "p2" : "Sin embargo, en la implementación actual PVM (producto viable mínimo) ningún modelo de responsabilidad compartida es implementado aún. El portal es bruto y el servicio web tiene que ser de plena confianza."
+            }
+        }
+    },
+    "indexLayout" : {
+        "mobileTag" : "Dinero sin fronteras ni barreras, tan fácil como enviar un SMS. Enviar y recibir Bitcoin en cualquier parte del mundo. No requiere de internet o teléfono inteligente.",
+        "header" : {
+            "_comment" : "Esto puede ser depreciado.",
+            "mobileTag" : "<br>Sin fronteras ni barreras,<br/> tan fácil como enviar un SMS",
+            "tag" : "Enviar y recibir Bitcoin <br> en cualquier parte del mundo a través de SMS. <br/> No requiere de Internet o teléfono inteligente.",
+            "walletInv" : "Regístrate para ser un usuario beta del monederoSMS.",
+            "terms" : {
+                "prompt" : "¡Al hace clic en Ir!, te comprometes a los",
+                "label": "terminos de uso"
+            }
+        },
+        "h1SMS" : "SMS",
+        "h1Wallet" : "monedero",
+        "wallet" : "Después de haber configurado tu cuenta, recibirás un mensaje de texto automático de un portal. Para controlar tu cuenta, envía cualquiera de estos comandos a ese número de teléfono celular a traves de SMS.",
+        "walletInv" : "Conviértase en un usuario beta del monederoSMS",
+        "walletBtn" : "Abrir un Monedero",
+        "commands" : "Los comandos no distinguen entre mayúsculas y minúsculas y se envían a los portales a través de SMS/mensaje de texto. Para obtener más información, visita el monederoSMS",
+        "link" : "página de ayuda",
+        "h2gw" : "portal",
+        "gw1" : "Una aplicación Android, descentralizada y de código abierto, que sirve de puente entre SMS y Bitcoin. Diseñado para teléfonos Android de gama baja. En otras palabras, usted puede conectar su país a la economía mundial a través de Bitcoin (y tambien, ganar un poco por su tiempo y esfuerzo. ;-).",
+        "gw2" : "Los portales son operados por socios que ganan la comisión por transacción. Para convertirse en un socio portalSMS, se requiere lo siguiente:",
+        "gwLi" : ["Teléfono Android Dedicado","Plan de mensajería de texto","Conexión a internet"],
+        "gwInv" : "Conviértete en un socio portalSMS",
+        "gwBtn" : "Abrir un Portal"
+    },
+    "loginView" : {
+        "gwCallToAction" : "¿Tienes un teléfono Android libre y quieres operar un portalSMS en tu país?",
+        "signUpLinkLabel" : "Regístrate",
+        "registrationExplanation" : "<ul>El proceso de registro te llevará a través de:<li>Configurando un teléfono Android</li><li>Seleccionando una tarifa por transacción</li><li>Probando tu portal</li></ul>",
+        "walletBtn" : "Abrir un monedero",
+        "commands" : "Los comandos no distinguen entre mayúsculas y minúsculas y se envían a los portales a través de SMS/mensaje de texto. Para obtener más información, visita el monederoSMS",
+        "link" : "página de ayuda",
+        "gw1" : "Una aplicación Android, descentralizada y de código abierto, que sirve de puente entre SMS y Bitcoin. Diseñado para teléfonos Android de gama baja. En otras palabras, usted puede conectar su país a la economía mundial a través de Bitcoin (y tambien, ganar un poco por su tiempo y esfuerzo. ;-).",
+        "gw2" : "Los portales son operados por socios que ganan la comisión por transacción. Para convertirse en un socio portalSMS, se requiere lo siguiente:",
+        "gwLi" : ["Teléfono Android Dedicado","Plan de mensajería de texto","Conexión a internet"],
+        "gwInv" : "Conviértete en un socio portalSMS",
+        "inputEmail" : {
+            "label" : "Correo Electrónico",
+            "placeholder" : "Ingresar correo electrónico"
+        },
+        "inputPassword" : {
+            "label" : "Contraseña:",
+            "placeholder" : "Ingresar contraseña"
+        },
+        "form-signin-heading" : "Por favor Ingresa:",
+        "loginBtn" : "Ingresar",
+        "gwBtn" : "Abrir un Portal",
+        "newGwPrompt" : "¿Nuevo Portal?",
+        "reset" : "¿Olvidaste tu contraseña? {0}",
+        "error" : {
+            "badPass" : "Correo Electrónico o Contraseña inválida.!"
+        },
+        "wallet" : {
+            "login" : {
+                "title2" : "Ingresar al monedero",
+                "label" : "Introduzca el número de teléfono celular de su cuenta existente.",
+                "gwPrompt" : "¿Querias iniciar sesión en tu portalSMS?",
+                "gwLink" : "Haga clic aquí."
+            },
+            "signUp" : {
+                "SMS" : "SMS",
+                "titleH1" : "wallet SignUp",
+                "titleH2" : "Please Sign up",
+                "promptBeta" : "Join the SMSwallet beta.",
+                "happy" : "You have successfully submitted a registration request.",
+                "alert" : "Attention!",
+                "alertMsg" : "To complete registration please check your email inbox and validate you email address.",
+                "gw" : "¿Querías iniciar un portalSMS?",
+                "gwLnk" : "Haga clic aquí."
+            },
+            "signUpConf" : {
+                "signUpH2" : "Regístrate",
+                "success" : "Éxito",
+                "created" : "Cuenta creada.",
+                "linkLabel" : "Empezar",
+                "linkLabelPunct" : "!",
+                "sad" : "Error!",
+                "sadMsg" : "La creación de cuenta fracasó. Por favor",
+                "contactSupport" : "contacta a suporte"
+            }
+        },
+        "signup" : {
+            "titleH2" : "Por favor Regístrate",
+            "InputEmail1" : {
+                "label" : "Correo Electrónico:",
+                "placeholder" : "Ingresar correo electrónico"
+            },
+            "password1" : {
+                "label" : "Contraseña:",
+                "placeholder" : "Crea una contraseña"
+            },
+            "password2" : {
+                "label" : "Contraseña:",
+                "placeholder" : "Confirma tu contraseña"
+            },
+            "signUpBtn" : "Regístrate",
+            "sad" : "Error!",
+            "sadLinkPrompt" : "Por favor",
+            "sadLinkLabel" : "Contacta a soporte"
+        }
+    },
+    "brand" : {
+        "SMSwallet" : "monederoSMS",
+        "SMSgateway" : "portalSMS",
+        "sms" : "SMS",
+        "gateway" : "portal"
+    },
+    "faq" : {
+        "gw" : {
+            "titleH1" : "Preguntas Frecuentes portalSMS:",
+            "q1WhyGateway" : "¿Qué es 'portalSMS'? ¿Por qué es necesario?",
+            "a1WhyGateway" : {
+                "p1" : "'portalSMS' es una aplicación para Android que actua como mediador entre cualquier red de SMS local y el Internet. Cada portal tiene el poder de conectar la red SMS de un país a la red Bitcoin; y, por tanto, a la economía global. Puede ser operado por cualquier persona dispuesta a invertir en un teléfono Android, instalar la aplicación, y cuidar de su conectividad. Esta persona es el socio portalSMS. Los esfuerzos del socio son recompensados ​​con una pequeña recompensa de cualquier transacción que se inicie a través de su portal. Cuanto más portales sean configurados, mayor el alcance de 'la red de 37Coins' y su resistencia ante un fallo de hardware o un ataque malicioso incrementa. El portalSMS está diseñado como un cliente regular a la red del proveedor de servicios móviles. Sin autorización, cooperación o acuerdo con el proveedor de la red, excepto una tarjeta SIM, se requiere para configuración.",
+                "p2" : "Los usuarios del monederoSMS NO necesitan un teléfono inteligente. Pueden abrir un monedero con un portal simplemente enviandole un SMS desde cualquier teléfono celular."
+            },
+            "q2WorkTogether" : "¿Cómo trabajan juntos el portalSMS y el monederoSMS?",
+            "a2WorkTogether" : {
+                "p1" : "'monederoSMS' trae tanta seguridad como es asequible para permitir que un cliente (el usuario con el teléfono de característica simple) en una red insegura controle un monedero Bitcoin a través de SMS. El cliente envía comandos de texto simples a través de SMS. El portal verifica esos comandos, construye una transacción y la reenvía al servicio web. El servicio web verifica, independientemente del portal, y luego publica la transacción a la red Bitcoin. Puede parecer complicado, pero para el usuario final es realmente tan sencillo como enviar un SMS. Y es seguro porque utilizamos la identificación SIM del teléfono a través del canal de SMS; y, si es necesario, utilizamos un PIN Secreto como otro identificador. El PIN Secreto se introduce con los tonos de marcación a través de una llamada de voz."
+            },
+            "q3WhatPhone" : "¿Puedo operar un portal en mi teléfono de todos los días?",
+            "a3WhatPhone" : {
+                "p1" : "No, eso no es una buena idea. La aplicación portalSMS consume mucha batería y reenvía todo los llegando SMS —incluso tu privados— al internet. Utiliza un teléfono dedicado (mejor algun obsoleto Android de 1ra generaciónr) para operar el portal en un lugar seguro, conectado a internet y electricidad en todo momento. Los usuarios del portalSMS se lo agradecerán."
+            },
+            "q4Profit" : "Opero un portalSMS, ¿cuál es el promedio de pago mensual?",
+            "a4Profit" : {
+                "p1" : "Si no adquieres clientes y promueves el número de tu portalSMS, no verás ningún pago en absoluto. Tu portal es como una pequeña empresa, mantén disponibilidad del 100% y difunde la palabra."
+            },
+            "q5WhatNow" : "Abrí un nuevo portalSMS, ¿ahora qué?",
+            "a5" : {
+                "p1" : "¡Promociona tu servicio! Una vez que tengas tu portalSMS en pleno funcionamiento, abre un monederoSMS desde un teléfono celular diferente. En otras palabras, envía un mensaje de texto desde otro teléfono celular a tu número de portalSMS. Esto creará una nueva cuenta de monederoSMS. Ahora tendras un teléfono monederoSMS y un teléfono portalSMS. Desde tu teléfono monederoSMS, solicita tu dirección Bitcoin enviando el comando "DIRECCION". Envía Bitcoin a esta dirección. Una vez que tu monedero esté cargado, puedes demostrar el servicio y sorprender a tus amigos invitándolos mediante el envío de pequeñas fracciones de Bitcoin."
+            },
+            "q6HowSecure" : "¿Cómo es esto seguro? ¿No has oído hablar del receptor-IMSI? ¿Y si me hackean?",
+            "a6HowSecure" : {
+                "p1" : "MonderoSMS opera en un modelo de responsabilidad compartida y autenticación de factor-múltiple por seguridad. Para proteger los monederosSMS de suplantación de identidad (spoofing), el portalSMS envía un desafío de vuelta al teléfono para verificar la solicitud. Luego una transacción es construida y firmada con la llave privada del portalSMS. La(s) entrada para esta transacción no es gastable sin la firma de ambos, el portal y el servicio web. Para transacciones de alto valor, el servicio-web inicia una llamada de voz con el cliente para verificar el PIN de gasto del cliente. En lugar de confirmar el mensaje a través de SMS/mensaje de texto, se introduce un PIN Secreto con el tono de marcado a través de una llamada de voz. Una vez conseguido esto, el servicio web añade su parte de la firma y la transacción se puede gastar. Durante todo el proceso, se requiere al cliente para verificar la posesión del teléfono, así como el conocimiento del PIN de gasto, dándole dos factores para la autenticación. En otras palabras, el receptor-IMSI sería ineficaz en transacciones protegidas por el PIN de seguridad",
+                "alert-warning1" : "Sin embargo, en la implementación actual PVM (producto viable mínimo) ningún modelo de responsabilidad compartida es implementado aún. El portal es bruto y el servicio web tiene que ser de plena confianza."
+            }
+        }
+    } ,
+    "form" : {
+        "gwSetup" : {
+            "ver" : {
+                "titleH2" : "Verificación de Propiedad de Portal",
+                "inputCode" : {
+                    "label": "Código de Verificación:",
+                    "help-block" : "Escribe el código de 5-dígitos que recibiste durante la llamada de verificación.",
+                    "confirmBtn" : "Confirma Propiedad",
+                    "sad" : "Error!",
+                    "sadExpln" : "Código enviado no válido."
+                },
+                "inputTel" : {
+                    "label" : "Número celular del Portal:",
+                    "placeholder" : "+CCXXXXXX...",
+                    "help-block" : "Introduzca el número de su portal en formato internacional. Evite signos especiales y espacios. Recibirás una llamadada, diciendote el código de verificación de 5-dígitos.",
+                    "startBtn" : "Iniciar Verificación",
+                    "sad" : "Error!",
+                    "sadExpln" : "Error de Comunicación."
+                },
+                "verBtn" : "Iniciar Verificación"
+            }
+        },
+        "gwSet" : {
+            "h2" : "Configuración de Portal",
+            "feeInput" : {
+                "label" : "Costo de Transaction en ",
+                "labelDen" : "Bits:",
+                "labelDenExpl" : "Bits son 0.000001 BTC, o una millonésima de un Bitcoin.",
+                "placeholder" : "0.00xx",
+                "help-block" : "Elije una tarifa de transacción pagada en \"Bits\" de bitcoin a usted por el usuario para cada transacción exitosa.",
+                "help-block-tt" : "Bits son 0.000001 BTC, o una millonésima de un Bitcoin."
+            },
+            "msgInput" : {
+                "label" : "Mensaje de Bienvenida:",
+                "placeholder" : "37coins",
+                "help-block" : "Define el mensaje de bienvenida que recibe un nuevo usuario."
+            },
+            "urlInput" : {
+                "label" : "Url de la Empresa:",
+                "placeholder" : "www.37coins.com",
+                "help-block" : "Establece el nombre de su empresa."
+            },
+            "callbackInput" : {
+                "label" : "Retrollamada de Registro:",
+                "placeholder" : "https://",
+                "help-block" : "Notifique a su servidor sobre nuevos usuarios."
+            },
+            "submitBtn" : "Actualizar Configuración",
+            "sad" : "Error!",
+            "commErr" : "Error de Comunicación! Por favor inténtalo de nuevo más tarde, desde un navegador diferente, o contacta a soporte.",
+            "happy" : "Éxito!",
+            "success" : "Configuración actualizada."
+        }
+    } ,
+    "gatewayColV" : {
+        "numberTh1": "Número",
+        "feeTh2": "Tarifa"
+    },
+    "logoutView" : {
+        "success" : {
+            "happy" : "Éxito!",
+            "alert" :"Éxitoso cierre de sesión.",
+            "alert-link" :"Continuar al Ingreso"
+        }
+    },
+    "merchant" : {
+        "success" : {
+            "alert" : "<strong>Éxito!</strong> Cuenta de cometcuante verificada éxitosamente.",
+            "InputName1" : {
+                "label": "Nombre de Usuario:",
+                "placeholder": "Ingresar nombre de usuario."
+            },
+            "button" : "Establecer nombre",
+            "error" : {
+                "prompt" : "<strong>Error!</strong> Por favor",
+                "label" : "contacta a soporte"
+            },
+            "instructions" : "¡Prueba tu nueva cuenta! ¡Registra algunos usuarios y déjanos saber lo que piensas!"
+        },
+        "verify" : {
+            "h2" : "Verificación de Cuenta",
+            "desc" : "Vamos a llamar a tu número de teléfono celular para verificar tu móvil. Haz clic en <b>Llámame ahora</b> abajo e introduce el código de 4-dígitos que te será mostrado.",
+            "searchInput" : {
+                "label" : "Número de teléfono celular:",
+                "placeholder" : "+XXYYYYYYYY"
+            },
+            "disabledInput" : {
+                "label" : "Código:",
+                "placeholder" : "Código de 4-dígitos aquí..."
+            },
+            "verBtn" : "Llámame ahora",
+            "merchStatus1" : "Por favor ingresa tu número de teléfono celular."
+        }
+    },
+    "mobileInput" : {
+        "descCountry" : "País",
+        "descNumber" : "Número de teléfono móvil",
+        "success" : "Válido",
+        "error" : "Número invalido"
+    },
+    "reset" : {
+        "identifyH2" : "Identifica cuenta a ser restablecer",
+        "happy" : "¡Éxito!",
+        "submitted" : "Solicitud de Contraseña enviada. Por favor revisa tu correo electrónico y sigue las instrucciones proporcionadas.",
+        "sad" : "!Error!",
+        "failMsg" : "El URL para restablecer la contraseña ya no es válido. Por favor",
+        "supp" : "contacta a soporte",
+        "newPass" : {
+            "h2" : "Por favor escoje una nueva Contraseña",
+            "form" : {
+                "password" : {
+                    "label" : "Contraseña:",
+                    "placeholder" : "Ingresar contraseña"
+                },
+                "password2" : {
+                    "label" : "Contraseña:",
+                    "placeholder" : "Confirma tu contraseña"
+                },
+                "saveBtn" : "Guardar",
+                "error" : "¡Error!",
+                "unMatched" : "¡Las contraseñas deben coincidir!"
+            }
+        },
+        "resetReqForm" : {
+            "titleH2": "Identifica cuenta para restablecer",
+            "exampleInputEmail1" : {
+                "label" : "Correo electrónico:",
+                "placeholder" : "Ingresar correo electrónico",
+                "help-block" : "Escriba la dirección de correo electrónico de su cuenta para recibir un código de restablecimiento.",
+                "resetBtn" : "Restablecer Contraseña"
+            },
+            "ohNoez" : "¡Error!",
+            "notFound" : "Cuenta no encontrada. Intenta nuevamente."
+        },
+        "succ" : {
+            "done" : "Contraseña éxitosamente restablecida.",
+            "login" : "Continuar al Ingreso"
+        }
+    }
+});
